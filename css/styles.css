@@ -17,3 +17,10 @@ h1 {
   width: 50%;
   opacity: 0.8;
 }
+
+.center1 {
+  display: block;
+  width: 100%;
+  hight: 50%;
+  opacity: 0.8;
+}
