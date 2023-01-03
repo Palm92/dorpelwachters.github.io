@@ -28,11 +28,9 @@ div.banner {
 
 div.footer {
   bottom: 0;
-  background-color: LightSteelBlue;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
 }
 
 div {
