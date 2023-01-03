@@ -11,14 +11,12 @@ h1 {
 }
 
 div.background {
-  /* The image used */
   background-image: url("/img/kerk_vorchten.JPG");
-  opacity: 0.8;
-  /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed
+  background-attachment: fixed;
+  opacity: 0.8;
 }
 
 div {
