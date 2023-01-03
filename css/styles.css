@@ -10,7 +10,7 @@ h1 {
  color: DodgerBlue;
 }
 
-.backgroundDiv {
+div.background {
   /* The image used */
   background-image: url("img/kerk_vorchten.JPG");
 
