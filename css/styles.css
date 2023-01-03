@@ -13,6 +13,7 @@ h1 {
 div.background {
   /* The image used */
   background-image: url("img/kerk_vorchten.JPG");
+  opacity: 0.8;
 
   /* Full height */
   height: 50%; 
@@ -21,8 +22,6 @@ div.background {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
- 
-  opacity: 0.8;
 }
 
 div {
