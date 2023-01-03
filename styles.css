@@ -2,3 +2,9 @@
  font-size: 100%;
  font-family: Verdana, Arial, Times New Roman;
 }
+
+h1 {
+ text-align: center;
+ text-transform: uppercase;
+ font-size: 40px;
+}
