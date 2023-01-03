@@ -10,11 +10,18 @@ h1 {
  color: DodgerBlue;
 }
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
+.backgroundDiv {
+  /* The image used */
+  background-image: url("img/kerk_vorchten.JPG");
+
+  /* Full height */
+  height: 50%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
   opacity: 0.8;
 }
 
