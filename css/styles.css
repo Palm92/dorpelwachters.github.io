@@ -27,7 +27,6 @@ div.banner {
 }
 
 div.footer {
-  position: absolute;
   bottom: 0;
   background-color: LightSteelBlue;
   display: flex;
