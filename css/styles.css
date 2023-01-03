@@ -28,6 +28,7 @@ div.banner {
 
 div.footer {
   bottom: 0;
+  padding: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
