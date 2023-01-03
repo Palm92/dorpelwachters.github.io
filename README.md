@@ -1,2 +1,2 @@
-# dorpelwachters
+# Dorpelwachters
 Christelijk Mannenkoor de Dorpelwachters
