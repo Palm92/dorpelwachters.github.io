@@ -28,4 +28,5 @@ div {
   display: block;
   padding: 10px 50px 25px;
   max-width: 1000px;
+  margin: 0 auto; 
 }
