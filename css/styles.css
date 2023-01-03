@@ -26,19 +26,15 @@ div.banner {
   justify-content: center;
 }
 
+div.footer {
+  text-align: center;
+  background-color: LightSteelBlue;
+  color: white;
+}
+
 div {
   display: block;
   padding: 10px 50px 25px;
   max-width: 1000px;
   margin: 0 auto; 
-}
-
-footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  background-color: LightSteelBlue;
-  color: white;
 }
