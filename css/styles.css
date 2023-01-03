@@ -3,10 +3,10 @@
  font-family: Verdana, Arial, Times New Roman;
 }
 
-/*html,body{
+html,body{
     height:100%
 }
-*/
+
 h1 {
  text-align: center;
  text-transform: uppercase;
