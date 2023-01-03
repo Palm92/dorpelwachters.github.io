@@ -18,6 +18,8 @@ h1 {
   opacity: 0.8;
 }
 
-.contactDiv {
+
+div {
+  display: block;
   padding: 25px 50px 75px;
 }
