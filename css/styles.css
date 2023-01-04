@@ -3,6 +3,10 @@
  font-family: Verdana, Arial, Times New Roman;
 }
 
+body {
+  margin: 0;
+}
+
 h1 {
  text-align: center;
  text-transform: uppercase;
@@ -23,7 +27,6 @@ h1 {
 
 .footer {
   position: fixed;
-  padding: 5px 0px 5px;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -31,7 +34,6 @@ h1 {
 }
 
 div {
-  max-width: 1200px;
   display: block;
   padding: 10px 50px 25px;
   margin: 0 auto; 
