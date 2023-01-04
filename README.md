@@ -1,2 +1,2 @@
 # Dorpelwachters
-Christelijk Mannenkoor de Dorpelwachters
+De website van het christelijk mannenkoor de dorpelwachters.
