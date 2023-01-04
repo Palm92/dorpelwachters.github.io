@@ -3,11 +3,6 @@
  font-family: Verdana, Arial, Times New Roman;
 }
 
-html,body{
-    height: 100%;
-    margin: 0;
-}
-
 h1 {
  text-align: center;
  text-transform: uppercase;
@@ -17,18 +12,17 @@ h1 {
 
 .banner {
   background-image: url("/img/kerk_vorchten.JPG");
-  min-height: 25%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100%;
+  padding:60px 0;
+  text-align: center;
   opacity: 0.8;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .footer {
-  position: relative;
+  position: fixed;
   padding: 5px 0px 5px;
   bottom: 0;
   left: 0;
