@@ -8,12 +8,6 @@ html, body {
   height: 100%;
 }
 
-h1 {
- text-align: center;
- text-transform: uppercase;
- color: white;
-}
-
 .koor {
   display: block;
   height: auto;
@@ -45,6 +39,8 @@ h1 {
   text-align: center;
   padding:100px 0;
   opacity: 0.8;
+  color: white;
+  text-transform: uppercase;
 }
 
 #content {
