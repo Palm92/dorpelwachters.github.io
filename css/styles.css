@@ -37,6 +37,7 @@ h1 {
 }
 
 div {
+  max-width: 1200px;
   display: block;
   padding: 10px 50px 25px;
   margin: 0 auto; 
