@@ -9,7 +9,7 @@ $('#rsvp-form').on('submit', function (e) {
         && MD5($('#invite_code').val()) !== '2ac7f43695eb0479d5846bb38eec59cc') {
         $('#alert-wrapper').html(alert_markup('danger', '<strong>Sorry!</strong> Your invite code is incorrect.'));
     } else {
-        $.post('https://script.google.com/macros/s/AKfycbzUqz44wOat0DiGjRV1gUnRf4HRqlRARWggjvHKWvqniP7eVDG-/exec', data)
+        $.post('https://script.google.com/macros/s/AKfycbybWWWpQKFf_UVvjzRguiXVY4B8wI9Ax_e73iZKZLnJceytdea4Wrcd3Bv02Voi8dJJ1g/exec', data)
             .done(function (data) {
                 console.log(data);
                 if (data.result === "error") {
