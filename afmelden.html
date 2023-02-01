@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Afmelden</title>
+    <link rel="stylesheet" href="/css/styles.css">
+  </head>
+  <body>
+    <div id="wrapper">
+        <div id="content">
+          <h2>Afmelden</h2>   
+          <form class="gform" method="POST" data-email="wpalm@outlook.com"
+          action="https://script.google.com/macros/s/AKfycbySUZUDqdgNiQvHjIPrlTd-EOX-LrK3jgrgH7WJK-wis10U0DgS6ZaYW70418nhYqK3/exec">
+            <!-- change the form action to your script url -->
+            <div class="form-elements">
+              <fieldset class="pure-group">
+                <label for="naam">Naam: </label>
+                <input id="naam" name="naam" type="text" required placeholder="naam" />
+              </fieldset>
+              <fieldset class="pure-group">
+                <label for="email">Email:</label>
+                <input id="email" name="email" type="email" value="" required placeholder="email"/>
+              </fieldset>
+              <fieldset class="pure-group">
+                <label for="datum">Datum afmelden: </label>
+                <input id="datum" name="datum" type="date"/>
+              </fieldset>
+              <button class="button-success pure-button button-xlarge">
+                <i class="fa fa-paper-plane"></i>&nbsp;Verzenden</button>
+            </div>
+            <!-- Customise the Thankyou Message People See when they submit the form: -->
+            <div class="thankyou_message" style="display:none;">
+              <p>Afgemeld!</p>
+            </div>
+          </form>
+          <a href="https://docs.google.com/spreadsheets/d/1GImoFp9h0FkTg-OUzBOkm1tBR1cWsuQRXlBBZquopwM/edit?usp=sharing">Bekijk afmeldingen</a>
+        </div>
+  </body>
+</html>
