@@ -41,10 +41,6 @@ html, body {
   font-size: 125%;
 }
 
-.logo-plus-button {
-  display: none;
-}
-
 button {
   display: block;
   width: auto;
